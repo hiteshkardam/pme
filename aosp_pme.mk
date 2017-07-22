@@ -15,7 +15,7 @@
 IS_ARM64 := true
 
 # Include Official OTA Package
-WITH_OFFICIALOTA := true
+#WITH_OFFICIALOTA := true
 
 # Include pure telephony configuration
 $(call inherit-product, vendor/pure/configs/pure_phone.mk)
@@ -32,7 +32,7 @@ $(call inherit-product, device/htc/pme/device.mk)
 # $(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_DEVICE := pme
-PRODUCT_NAME := pme
+PRODUCT_NAME := aosp_pme
 PRODUCT_BRAND := HTC
 PRODUCT_MODEL := HTC 10
 PRODUCT_MANUFACTURER := HTC
